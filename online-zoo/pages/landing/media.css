@@ -1,0 +1,268 @@
+/* MEDIA 320 MEDIA */
+
+@media screen and (max-width: 320px) {
+  
+  body {
+    max-width: 320px;
+  }
+  .header {
+    min-height: 92px;
+    }
+  .header-wrapper {
+    max-width: 300px;
+    justify-content: start;
+  }
+  .wrapper {
+    max-width: 300px;
+  } 
+  .header__burger{
+    display: block;
+  }
+  .header__nav {
+    position: absolute;
+    display: none;
+  }
+  .header_logo {
+    margin-right: 122px;
+  }
+  .page-main__info {
+    padding-top: 92px;
+    padding-left: 0px;
+    margin: 0 auto;
+  }
+  .page-main_title {
+    font-size: 48px;
+    line-height: 56px;   
+    width: 100%; 
+    margin-bottom: 15px;
+  }
+  .page-main_button {
+    margin-bottom: 35px;
+  }
+  .page-main .slider {
+    position: static;
+    padding-left: 10px;
+    margin-bottom: 50px;
+  }
+  .wrapper-slides-line {
+    margin-bottom: 15px;
+  }
+  .page-main__social-nav {
+    position: absolute; /* может и не надо */
+    display: none;
+  }
+  /* how is it work start */
+  .how-it-works {
+    margin: 50px 0;
+  }
+
+  .how-it-works_title {
+    font-size: 36px;
+    line-height: 42px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .how-it-works_subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+  }
+
+  .how-it-works_image {
+    /* width: 600px; */
+    width: 100%;
+    margin-bottom: 20px;
+  } 
+  .slider_roller_wrapper {
+    margin-bottom: 20px;
+    }
+
+  /* inspiring start */
+  .inspiring {
+    padding: 50px 0;
+  }
+  .wrapper-1200 {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .inspire {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .inspire:last-child {
+    margin-bottom: 0;
+  }
+
+  .layout-3-column {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* inspiring end */
+  /* pets start */
+  .pets {
+    padding: 100px 0 50px 0;
+  }
+  .pets__title {
+    width: 100%;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 30px;
+  }
+  .wrapper-1300 {
+    max-width: 300px;
+  }
+  .slider-wrapper-btns-images {
+    margin-bottom: 31px;
+  }
+  .slider-wrapper-btn {
+    position: absolute;
+    display: none;
+  }
+
+  .pets .slider_roller_wrapper {
+    margin-bottom: 25px;
+  }
+
+  .pets .slider_slides {
+  width: 100%;
+  overflow: hidden;
+ }
+ .pets .slider_item {
+   height: 301px;
+   width: 210px;
+   margin-right: 16px;
+ }
+ /* pets end */
+ /* pay-feed start */
+ .pay-feed {
+  padding: 50px 0;
+}
+.pay-feed__title {
+  width: 100%;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+.pay-feed__subtitle {
+  display: none;
+}
+
+.pays {
+  margin-bottom: 40px;
+}
+.pay__arrow {
+  height: 40px;
+  background: url("../../assets/icons/arrow-down-40.svg") no-repeat center;
+  margin: 30px 0;
+}
+
+/* pay-feed end */
+/* testimonials start */
+.testimonials {
+  padding: 50px 0;
+}
+.testimonials__title {
+  font-size: 36px;
+  line-height: 42px;
+  width: 100%;
+  margin-bottom: 36px;
+}
+.testimonials_slider_slides {
+  width: 100%;
+  overflow: hidden;
+}
+ .testimonials_slider_item {
+  justify-content: flex-start;
+  text-align: left;
+   width: 100%;
+   /* height: 363px; */
+   height: auto;
+   padding: 50px 0 112px 0;
+ }
+ .testimonials_slider_item:first-child {
+   display: none;
+ }
+  .testimonial {
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+    padding: 0 14px 0 14px;
+    /* margin-bottom: 112px; */
+    /* width: 100%; */
+  }
+  .testimonials .slider-wrapper-btns-images { /* только для класса .slider-wrapper-btns-image, который находится внутри класса .testmonials */
+    margin-bottom: 20px;
+  }
+  
+ /* testimonials end */
+ /* map start */
+ .map {
+  padding: 50px 0 60px 0;
+}
+.map__title {
+  font-size: 36px;
+  line-height: 42px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.map-wrapper {
+  margin-bottom: 30px;
+}
+.map__image {
+  width: 100%;
+  height: 146px;
+}
+.map__icon_eagle {
+  left: 9.51%;
+  top: 2.39%;
+}
+.map__icon_panda {
+  right: 17.5%;
+  top: 4%;
+}
+.map__icon_alligator {
+  left: 17.7%;
+  top: 5.7%;
+}
+.map__icon_gorilla {
+  left: 45%;
+  top: 24%;
+}
+/* map end */
+.footer {
+  height: 1100px;
+  padding-top: 40px;
+}
+.footer-wrapper-nav {
+  display: block;
+  margin-bottom: 23px;
+}
+.footer__logo {
+  margin-bottom: 30px;
+}
+.footer__list {
+  display: block;
+}
+.footer__item {
+  margin: 0 0 5px 0;
+}
+   .footer__button {
+    left: -194px;
+    top: -93px;
+  }
+  .layout-2-column {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .contact-us {
+    width: 100%;
+    margin: 0 0 77px 0;
+}
+.fieldset {
+  margin-bottom: 16px;
+}
+
+
+
+}
